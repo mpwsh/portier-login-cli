@@ -1,17 +1,17 @@
 [package]
-name = "portier-reqwest"
+name = "portier-login-cli"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anyhow = "1.0.70"
-http = "0.2.9"
-reqwest = { version = "0.11.16", features = ["cookies", "json"] }
-reqwest_cookie_store = "0.5.0"
-serde = { version = "1.0.160", features = ["derive"] }
-serde_json = "1.0.96"
-termion = "2.0.1"
-thiserror = "1.0.40"
-tokio = { version = "1.28.0", features = ["full"] }
+anyhow = "1.0.75"
+http = "1.0.0"
+reqwest = { version = "0.11.22", features = ["cookies", "json"] }
+reqwest_cookie_store = "0.6.0"
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"
+termion = "2.0.3"
+thiserror = "1.0.50"
+tokio = { version = "1.34.0", features = ["full"] }
